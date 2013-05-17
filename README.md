@@ -1,4 +1,4 @@
-# Sort Object
+# Normalify
 
 [![Build Status](https://secure.travis-ci.org/bevry/normalify.png?branch=master)](http://travis-ci.org/bevry/normalify)
 [![NPM version](https://badge.fury.io/js/normalify.png)](https://npmjs.org/package/normalify)
