@@ -1,10 +1,6 @@
 sudo: false
 language: node_js
 node_js:
-- '0.12'
-- '4'
-- '6'
-- '8'
 - '10'
 - '12'
 - '13'
@@ -17,8 +13,9 @@ install:
 before_script:
 - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-verify.bash)"
 after_success:
+- eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/surge.bash)"
 - eval "$(curl -fsSL https://raw.githubusercontent.com/bevry/awesome-travis/c91c9d5eef34ecb0e92029667fd5052640225fa3/scripts/node-publish.bash)"
 notifications:
   email:
     recipients:
-      secure: I4kvQMIP9HMHj/OxD5J7lSSBoFn3TTgHbvF9jHx3xousmiDN+DYAB0Bck+549o+eQnGvGfdDeDBM2QZ0MqWSu3h20JYxS7gtX2Bd8gzGtCztV+jhwMzE7MGeRycm5jk7ZoucWNbXxS+pcI9uK1UGKEWVaIeCCIA/GbaPfbPl19w=
+      secure: hEEM1VeefmkfHubY26FhqeKtgg4g2GHzHx6Scn2s2K7ytuiqxqhLtfzMVbFsXZQrFaQf1eAfVtL60K8o65DEDoy4SE486DZj3Efd89/5bM/D6tsmi+sgpqu5IfYPaeHR1fffwtdu/9AIjg8wyFRntz3yNf1556gTzvevgDNVQk0=

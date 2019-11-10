@@ -54,47 +54,88 @@ Normalize different variable value types - e.g. `"1"` becomes `1`
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>normalify</code> aliases <code>normalify/index.js</code> which uses <a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a> to automatically select the correct edition for the consumers environment</li>
-<li><code>normalify/source/index.js</code> is esnext source code with require for modules</li>
-<li><code>normalify/edition-browsers/index.js</code> is esnext compiled for browsers with require for modules</li>
-<li><code>normalify/edition-node-0.12/index.js</code> is esnext compiled for node.js 0.12 with require for modules</li></ul>
+<ul><li><code>normalify/source/index.ts</code> is typescript source code with import for modules</li>
+<li><code>normalify/edition-browsers/index.js</code> is typescript compiled for browsers with import for modules</li>
+<li><code>normalify</code> aliases <code>normalify/edition-node-13/index.js</code></li>
+<li><code>normalify/edition-node-13/index.js</code> is typescript compiled for node.js 13 with require for modules</li></ul>
 
 <!-- /INSTALL -->
 
 
 ## Usage
 
-``` javascript
-var normalify = require('normalify')
-var result = normalify({
+```javascript
+const nan = 0 / 0
+const normalify = require('normalify').default
+const result = normalify({
     a: 'one',
     b: '1',
     c: '1.1',
     d: 1,
     e: 1.1,
-    f: {
+    f: "'hello'",
+    g: '"world"',
+    h: 'NaN',
+    i: nan,
+    j: 'true',
+    k: true,
+    l: 'false',
+    m: false,
+    n: 'null',
+    o: null,
+    z: {
         a: 'one',
         b: '1',
         c: '1.1',
         d: 1,
-        e: 1.1
+        e: 1.1,
+        f: "'hello'",
+        g: '"world"',
+        h: 'NaN',
+        i: nan,
+        j: 'true',
+        k: true,
+        l: 'false',
+        m: false,
+        n: 'null',
+        o: null
     }
 })
-console.log(JSON.stringify(result, null, 4))
+console.log(result)
 /* ouputs:
 {
+  a: 'one',
+  b: 1,
+  c: 1.1,
+  d: 1,
+  e: 1.1,
+  f: 'hello',
+  g: 'world',
+  h: NaN,
+  i: NaN,
+  j: true,
+  k: true,
+  l: false,
+  m: false,
+  n: null,
+  o: null,
+  z: {
     a: 'one',
     b: 1,
     c: 1.1,
     d: 1,
     e: 1.1,
-    f: {
-        a: 'one',
-        b: 1,
-        c: 1.1,
-        d: 1,
-        e: 1.1
-    }
+    f: 'hello',
+    g: 'world',
+    h: NaN,
+    i: NaN,
+    j: true,
+    k: true,
+    l: false,
+    m: false,
+    n: null,
+    o: null
+  }
 }
 */
 ```
