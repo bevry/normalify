@@ -1,6 +1,6 @@
 {
   "name": "normalify",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Normalize different variable value types - e.g. `\"1\"` becomes `1`",
   "homepage": "https://github.com/bevry/normalify",
   "license": "MIT",
