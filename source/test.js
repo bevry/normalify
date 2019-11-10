@@ -1,11 +1,13 @@
+'use strict'
+
 // Import
-const {deepEqual} = require('assert-helpers')
-const joe = require('joe')
+const { deepEqual } = require('assert-helpers')
+const kava = require('kava')
 const normalify = require('../')
 
 // Task
-joe.describe('normalify', function (suite, test) {
-	test('should work', function () {
+kava.describe('normalify', function(suite, test) {
+	test('should work', function() {
 		const fixture = {
 			a: 'one',
 			b: '1',
