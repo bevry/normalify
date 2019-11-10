@@ -65,8 +65,8 @@ Normalize different variable value types - e.g. `"1"` becomes `1`
 ## Usage
 
 ```javascript
+import normalify from 'normalify'
 const nan = 0 / 0
-const normalify = require('normalify').default
 const result = normalify({
     a: 'one',
     b: '1',
