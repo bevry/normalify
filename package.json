@@ -122,7 +122,7 @@
     "@babel/preset-typescript": "^7.7.2",
     "@typescript-eslint/eslint-plugin": "^2.7.0",
     "@typescript-eslint/parser": "^2.7.0",
-    "assert-helpers": "^5.1.0",
+    "assert-helpers": "^5.2.1",
     "babel-plugin-add-module-exports": "^1.0.2",
     "eslint": "^6.6.0",
     "eslint-config-bevry": "^1.2.1",
