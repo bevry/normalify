@@ -56,8 +56,8 @@ Normalize different variable value types - e.g. `"1"` becomes `1`
 
 <ul><li><code>normalify/source/index.ts</code> is typescript source code with import for modules</li>
 <li><code>normalify/edition-browsers/index.js</code> is typescript compiled for browsers with import for modules</li>
-<li><code>normalify</code> aliases <code>normalify/edition-node-13/index.js</code></li>
-<li><code>normalify/edition-node-13/index.js</code> is typescript compiled for node.js 13 with require for modules</li></ul>
+<li><code>normalify</code> aliases <code>normalify/edition-node-12/index.js</code></li>
+<li><code>normalify/edition-node-12/index.js</code> is typescript compiled for node.js 12 with require for modules</li></ul>
 
 <!-- /INSTALL -->
 
