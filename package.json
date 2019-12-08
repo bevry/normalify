@@ -133,7 +133,7 @@
     "projectz": "^1.13.0",
     "surge": "^0.21.3",
     "typedoc": "^0.15.3",
-    "typescript": "^3.7.2",
+    "typescript": "^3.7.3",
     "valid-directory": "^1.4.0"
   },
   "scripts": {
