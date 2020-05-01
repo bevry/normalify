@@ -7,8 +7,8 @@ import normalify from './'
 const nan = 0 / 0
 
 // Task
-kava.suite('normalify', function(suite, test) {
-	test('should work', function() {
+kava.suite('normalify', function (suite, test) {
+	test('should work', function () {
 		const fixture = {
 			a: 'one',
 			b: '1',
@@ -40,8 +40,8 @@ kava.suite('normalify', function(suite, test) {
 				l: 'false',
 				m: false,
 				n: 'null',
-				o: null
-			}
+				o: null,
+			},
 		}
 
 		const expected = {
@@ -75,8 +75,8 @@ kava.suite('normalify', function(suite, test) {
 				l: false,
 				m: false,
 				n: null,
-				o: null
-			}
+				o: null,
+			},
 		}
 
 		const actual = normalify(fixture)

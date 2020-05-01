@@ -33,7 +33,7 @@ const result = normalify({
 		l: 'false',
 		m: false,
 		n: 'null',
-		o: null
-	}
+		o: null,
+	},
 })
 console.log(result)
