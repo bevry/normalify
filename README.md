@@ -128,7 +128,7 @@ console.log(result)
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.pika.dev/normalify/^2.8.0'
+    import pkg from '//cdn.pika.dev/normalify/^2.9.0'
 </script>
 ```
 
@@ -136,7 +136,7 @@ console.log(result)
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/normalify@^2.8.0'
+    import pkg from '//unpkg.com/normalify@^2.9.0'
 </script>
 ```
 
@@ -144,7 +144,7 @@ console.log(result)
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/normalify@2.8.0'
+    import pkg from '//dev.jspm.io/normalify@2.9.0'
 </script>
 ```
 
