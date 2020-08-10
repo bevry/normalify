@@ -181,7 +181,7 @@
     "typedoc": "^0.17.8",
     "typescript": "^3.9.7",
     "valid-directory": "^2.7.0",
-    "valid-module": "^1.11.0"
+    "valid-module": "^1.12.0"
   },
   "scripts": {
     "our:clean": "rm -Rf ./docs ./edition* ./es2015 ./es5 ./out ./.next",
