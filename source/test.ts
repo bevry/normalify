@@ -1,7 +1,7 @@
 // Import
 import { deepEqual } from 'assert-helpers'
 import kava from 'kava'
-import normalify from './'
+import normalify from './index.js'
 
 // Local
 const nan = 0 / 0
