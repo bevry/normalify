@@ -171,7 +171,7 @@
   "browser": "edition-browsers/index.js",
   "module": "edition-browsers/index.js",
   "devDependencies": {
-    "@bevry/update-contributors": "^1.16.0",
+    "@bevry/update-contributors": "^1.17.0",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "assert-helpers": "^7.2.0",
