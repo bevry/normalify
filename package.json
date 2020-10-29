@@ -1,6 +1,6 @@
 {
   "name": "normalify",
-  "version": "2.20.0",
+  "version": "2.21.0",
   "description": "Normalize different variable value types - e.g. `\"1\"` becomes `1`",
   "homepage": "https://github.com/bevry/normalify",
   "license": "MIT",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "description": "TypeScript compiled against ESNext for Node.js 10 || 12 || 13 || 14 with Require for modules",
+      "description": "TypeScript compiled against ESNext for Node.js 10 || 12 || 14 || 15 with Require for modules",
       "directory": "edition-esnext",
       "entry": "index.js",
       "tags": [
@@ -121,12 +121,12 @@
         "require"
       ],
       "engines": {
-        "node": "10 || 12 || 13 || 14",
+        "node": "10 || 12 || 14 || 15",
         "browsers": false
       }
     },
     {
-      "description": "TypeScript compiled against ESNext for Node.js 12 || 13 || 14 with Import for modules",
+      "description": "TypeScript compiled against ESNext for Node.js 12 || 14 || 15 with Import for modules",
       "directory": "edition-esnext-esm",
       "entry": "index.js",
       "tags": [
@@ -136,7 +136,7 @@
         "import"
       ],
       "engines": {
-        "node": "12 || 13 || 14",
+        "node": "12 || 14 || 15",
         "browsers": false
       }
     },
@@ -172,20 +172,20 @@
   "module": "edition-browsers/index.js",
   "devDependencies": {
     "@bevry/update-contributors": "^1.17.0",
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "assert-helpers": "^7.2.0",
-    "eslint": "^7.12.0",
-    "eslint-config-bevry": "^3.22.0",
-    "eslint-config-prettier": "^6.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "assert-helpers": "^8.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-bevry": "^3.23.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "kava": "^5.12.0",
-    "make-deno-edition": "^1.1.1",
+    "kava": "^5.13.0",
+    "make-deno-edition": "^1.2.0",
     "prettier": "^2.1.2",
     "projectz": "^2.16.0",
     "surge": "^0.21.6",
     "typedoc": "^0.19.2",
-    "typescript": "^4.0.3",
+    "typescript": "^4.0.5",
     "valid-directory": "^3.4.0",
     "valid-module": "^1.14.0"
   },
