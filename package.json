@@ -1,6 +1,6 @@
 {
   "name": "normalify",
-  "version": "2.31.0",
+  "version": "2.32.0",
   "license": "Artistic-2.0",
   "description": "Normalize different variable value types - e.g. `\"1\"` becomes `1`",
   "homepage": "https://github.com/bevry/normalify",
@@ -123,8 +123,6 @@
     "Skunk Team (https://skunk.team) (https://github.com/skunkteam)",
     "Syntax <scott@syntax.fm> (https://syntax.fm) (https://github.com/syntaxfm)",
     "TopBetta (https://topbetta.com.au)",
-    "TopBetta (https://topbetta.com.au)",
-    "TopBetta (https://topbetta.com.au)",
     "WriterJohnBuck (https://github.com/WriterJohnBuck)"
   ],
   "engines": {
@@ -239,12 +237,12 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.2",
     "kava": "^7.8.0",
-    "make-deno-edition": "^2.2.0",
+    "make-deno-edition": "^2.3.0",
     "prettier": "^3.1.1",
-    "projectz": "^4.1.1",
+    "projectz": "^4.2.0",
     "typedoc": "^0.25.4",
     "typescript": "5.3.3",
-    "valid-directory": "^4.8.0",
+    "valid-directory": "^4.9.0",
     "valid-module": "^2.6.0"
   },
   "scripts": {

@@ -124,27 +124,27 @@ console.log(result)
 ### [Deno](https://deno.land "Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js")
 
 ``` typescript
-import pkg from 'https://unpkg.com/normalify@^2.31.0/edition-deno/index.ts'
+import pkg from 'https://unpkg.com/normalify@^2.32.0/edition-deno/index.ts'
 ```
 ### [Skypack](https://www.skypack.dev "Skypack is a JavaScript Delivery Network for modern web apps")
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/normalify@^2.31.0'
+    import pkg from '//cdn.skypack.dev/normalify@^2.32.0'
 </script>
 ```
 ### [unpkg](https://unpkg.com "unpkg is a fast, global content delivery network for everything on npm")
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/normalify@^2.31.0'
+    import pkg from '//unpkg.com/normalify@^2.32.0'
 </script>
 ```
 ### [jspm](https://jspm.io "Native ES Modules CDN")
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/normalify@2.31.0'
+    import pkg from '//dev.jspm.io/normalify@2.32.0'
 </script>
 ```
 ### [Editions](https://editions.bevry.me "Editions are the best way to produce and consume packages you care about.")
@@ -239,8 +239,6 @@ This package is published with the following editions:
 -   [ServieJS](https://github.com/serviejs)
 -   [Skunk Team](https://skunk.team)
 -   [Syntax](https://syntax.fm)
--   [TopBetta](https://topbetta.com.au)
--   [TopBetta](https://topbetta.com.au)
 -   [TopBetta](https://topbetta.com.au)
 -   [WriterJohnBuck](https://github.com/WriterJohnBuck)
 
